@@ -1,0 +1,17 @@
+### Test get / website
+GET http://localhost:8383
+
+
+### Post / create 
+Post http://localhost:8383/api/data
+Content-Type: application/json
+
+
+{
+  "name": "arash"
+}
+
+
+### Deleting / requesting server to delete from data base using the delete request defined on server
+
+Delete http://localhost:8383/api/data
